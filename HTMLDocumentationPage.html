@@ -1,0 +1,141 @@
+﻿<!DOCTYPE html>
+<link rel="Stylesheet" href="StyleSheetDocPage.css" />
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <nav id="navbar">
+        <header>HTML and CSS Documentation</header>
+        <ul>
+            <li>
+                <a class="nav-link" href="#Introduction">Introduction</a>
+            </li>
+            <li>
+                <a class="nav-link" href="#HTML_Basics">HTML Basics</a>
+            </li>
+            <li>
+                <a class="nav-link" href="#CSS">CSS</a>
+            </li>
+            <li>
+                <a class="nav-link" href="#Syntax">Syntax</a>
+            </li>
+            <li>
+                <a class="nav-link" href="#The_CSS_Exception">The CSS exception</a>
+            </li>
+            <li>
+                <a class="nav-link" href="#Resources">Resources</a>
+            </li>
+        </ul>
+    </nav>
+
+    <main id="main-doc">
+        <section class="main-section" id="Introduction">
+            <header>Introduction</header>
+            <article>
+                <p>Almost every person in the world knows what the Internet is and most know how to use it, but only a few know how it works. This is documentation that will cover just one aspect of the components that make up the Internet.</p>
+                <p>This section is called front  end web development and consists of HTML, CSS and goes hand in in with Javascript which are the three parts to most front end web development.</p>
+
+                <p>HTML and CSS are the back bone of the the world wide web as we know it. HTML gives a web page structure and the CSS gives it the visual appeal. </p>
+
+                <p>Both work together to create the webpages that we use everyday. They are completely different from each other. One is reliant on the the other, but the other compliments. We will get into those differences.</p>
+
+                <ul>
+                    <li>HTML (Hypertext Markup Language) is a markup language that allows website creation through hyperlinks that you can click to go to any place on the web. It is used to design the text that it will distinguish  as the different types of text in a webpage.</li>
+                    <li>CSS (Cascading StyleSheet) is a language for making the web document more asthetically pleasing with CSS elements that alter the look of the HTML in use on the webpage.</li>
+                </ul>
+            </article>
+        </section>
+        <section class="main-section" id="HTML_Basics">
+            <header>HTML Basics</header>
+            <article>
+                <p>The core tools of HTML are the elements (< > text < / >), which are the symbols that enclose a command that is called a tag. These tags tell the text how to behave and the content that goes in between them i.e. "text" make of an element.</p>
+                <ul>
+                    <li>Opening Tag and Closing Tag are "< p >" and "< /p >", which tells the document what the content that goes in between this tag will be or do. In this example it will be a paragraph. The slash is required to correctly close a tag.</li>
+                    <li>Content is basically what goes in between the tags and in the example it is the word "text".</li>
+                </ul>
+
+
+                <section class="main-section" id="CSS">
+                    <header>CSS</header>
+                    <article>
+                        <p>In CSS the main elements in use are CSS selectors which are " { }". This is implying that the HTML element that we want to style is going be described inside the curly braces, where the alterations take place such as color or font style.</p>
+                        <ul>
+                            <li>
+                                Selectors are the way CSS pick which elements are going to be changed. This is saying that the pareagrah element will be in blue.<code>
+                                    <br> p { color: blue }
+                                </code><br>
+                            </li>
+                            <li>The declaration consists of the rule that is being changed. In this case is the part that says " color: blue ".</li>
+                            <li>The property is the name for the item that we want to change. i.e. color is a property. The actual color itself "blue" is the property value.</li>
+                        </ul>
+                    </article>
+                </section>
+
+                <section class="main-section"
+                         id="Syntax">
+                    <header>Syntax</header>
+                    <article>
+                        <p>Syntax is the way that a language is supposed to be written such as the rules and the order. That's no different in HTML and CSS. The examples for both HTML and CSS are the syntax involved in each language.</p>
+                        <br>
+                        This is some syntax in HTML:
+                        <br>
+                        <code> &emsp;&lt;h1&gt;Hello World&lt;/h1&gt;</code>
+                        <br>
+                        This is some syntax in CSS:
+                        <br>
+                        <code> &emsp;&lt;h1&gt;{background-color: blue;}&lt;/h1&gt;</code>
+                    </article>
+                </section>
+                <br>
+
+                <section class="main-section" id="The_CSS_Exception">
+                    <header>The CSS Exception</header>
+                    <article>
+                        <p>The one big difference in the use and application of CSS is the fact that CSS can be added to an html file directly. It can also be written in a seperate file and that file can be reference in the HTML file, however, html cannot be written in a CSS file.</p>
+                        <p>This exception is referenced to as inline style. This is when you are adding the CSS style inside the HTML file.</p>
+
+                        <code>
+                            &emsp;&lt;head&gt;
+                            <br>
+                            &emsp;&lt;title&gt;My HTML Document&lt;/title&gt;
+                            <br>
+                        </code>
+
+                        <code>
+                            &emsp;&lt;style&gt;
+                            <br>
+                            body { background-color: YellowGreen; }
+                            <br>
+                            p { color: #fff; }
+                            <br>
+                            &lt;/head&gt;
+                            <br>
+                            &lt;/style&gt;
+                        </code>
+                    </article>
+                </section>
+
+                <section class="main-section" id="Reference">
+                    <header>Reference</header>
+                    <p>HTML and CSS are the main components involved in webpage development and the are the very basics need for someone who is interested in learning computer programming. Once one has mastered them then the next step is to learn a programming language, which is usually Javascript. That in itself is another documentation to go through at a later time.</p>
+                </section>
+
+                    <section class="main-section" id="Resources">
+                        <header>Resources</header>
+                        <article>
+                            <p>The resources for this documentatuion was taken from multiple sources:</p>
+                        </article>
+                        <ul>
+                            <li><a href="https://www.yourhtmlsource.com/starthere/whatishtml.html">HTML Source</li>
+                            <li><a href="https://www.codingdojo.com/blog/html-vs-css-inforgraphic">Coding Dojo</li>
+                            <li><a href="https://www.tutorialrepublic.com/css-tutorial/css-get-started.php">Tuturial Republic</li>
+                        </ul>
+                    </section>
+            </article>
+        </section>
+    </main>
+    
+</body>
+</html>
